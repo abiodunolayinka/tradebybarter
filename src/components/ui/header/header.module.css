@@ -1,0 +1,12 @@
+.main {
+  margin: 0 auto;
+  display: flex;
+  /* background-color: aquamarine; */
+}
+.header {
+    width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-evenly;   
+}
