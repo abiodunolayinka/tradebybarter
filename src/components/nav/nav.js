@@ -7,7 +7,7 @@ const Nav = () => {
     <div  className={classes.main} >
       <Link to="./">About us</Link>
       <Link to="./">Our Product</Link>
-      <Link to="./">Contact Us us</Link>
+      <Link to="./">Contact Us</Link>
       <button>
         <Link to="./">
           check our price list

@@ -1,0 +1,106 @@
+.divide {
+  height: 33px;
+  background-color: #0de7e6;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.flexBox {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 50px;
+}
+.flex1 {
+  width: 50%;
+  /* margin: 0 auto; */
+  justify-content: center;
+  align-items: center;
+}
+.flex1About {
+  background-color: #fcfcfc;
+  padding: 30px 40px;
+}
+.flex1About h4 {
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+  margin: 0;
+}
+.flex1About p {
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  padding-right: 40px;
+  line-height: 30px;
+}
+.flex1About button {
+  width: Hug (173px);
+  padding: 13px 24px 13px 24px;
+  border-radius: 32px;
+  gap: 8px;
+  background: #30baeb;
+  border: none;
+  margin-bottom: 20px 0;
+  justify-content: center;
+}
+.logo {
+  max-width: 85%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.logo > img {
+  width: 100%;
+}
+.lo {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+.social{
+  background-color: #fcfcfc;
+padding: 40px 0;
+}
+.social p {
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  text-align: left;
+  padding-right: 120px;
+  padding-left: 40px;
+}
+
+.flex2 {
+  background-color: #fcfcfc;
+  padding: 30px;
+  width: 40%;
+}
+
+.aboutImage {
+  width: 100%;
+  display: flex;
+}
+
+.aboutImg > img {
+  width: 100%;
+}
+.features {
+  padding-right: 50px;
+}
+.features h4 {
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  color: #30BAEB;
+
+}
+.features p{
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+}

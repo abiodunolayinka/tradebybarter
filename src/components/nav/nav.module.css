@@ -1,20 +1,42 @@
 .main {
-    width: 40%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    text-align: center;
-    
-    
-  }
-  .main button {
-    text-align: center;
-    display: flex;
-    justify-items: center;
-    padding: 10px 20px;
-    border-radius: 20px;
-    /* background-color: white; */
-    border: 2px solid rgb(0, 234, 255);
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  /* justify-items: center; */
+  /* text-align: center; */
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  /* line-height: 22px; */
+  text-align: center;
+  color: white
+}
+a:link {
+  text-decoration: none;
+}
 
-  }
+a:visited {
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.main button {
+  height: Hug (51px);
+  padding: 13px 24px 13px 24px;
+  border-radius: 32px;
+  border: 1px solid #30baed;
+  gap: 8px;
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #30BAEB;
+  background: transparent;
+
+}

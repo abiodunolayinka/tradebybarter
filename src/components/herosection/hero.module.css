@@ -1,0 +1,40 @@
+.main {
+  width: 80%;
+  margin: auto;
+  gap: 48px;
+  align-items: center;
+}
+.heroText {
+  width: 65%;
+  margin: 0 auto;
+}
+.heroText h1 {
+  font-family: Hanken Grotesk;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.main button {
+  margin: 0 auto;
+  padding: 13px 24px 13px 24px;
+  border-radius: 32px;
+  gap: 8px;
+  display: flex;
+  border: none;
+  background-color: #30baed;
+}
+.customer {
+  
+  margin: 60px auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customer p{
+  font-family: Hanken Grotesk;
+  /* color: white; */
+  
+
+
+}

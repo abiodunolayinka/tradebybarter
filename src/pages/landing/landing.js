@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from '../../components/herosection/hero'
+import About from '../../components/aboutUs/about'
 
 const Landing = () => {
   return (
    <>
-   <h1> this is the landing page</h1>
+   <Hero />
+   <About/>
    </>
   )
 }
