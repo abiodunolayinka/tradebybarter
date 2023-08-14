@@ -9,6 +9,8 @@ import Jbl from "../../assets/jbl.svg";
 import Microsoft from "../../assets/microsoft.svg";
 import Hp from "../../assets/hp.svg";
 // import Apple  from '../../assets/apple.svg';
+import { FiArrowRight } from "react-icons/fi";
+
 
 const Product = () => {
   return (
