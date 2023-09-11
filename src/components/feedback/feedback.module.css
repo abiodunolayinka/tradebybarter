@@ -1,0 +1,31 @@
+.main {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.mainContainer {
+  /* width: 80%; */
+  margin: auto;
+  align-items: center;
+}
+.mainContainer h3 {
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+  text-align: center;
+  color: #0f2b4a;
+}
+.mainContainer p {
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  text-align: center;
+  
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.flex > img{
+    width: 55%;
+}

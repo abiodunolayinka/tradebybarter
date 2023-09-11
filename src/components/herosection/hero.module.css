@@ -1,18 +1,29 @@
 .main {
+  background-image: url("../../assets/bg.svg");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.mainContainer {
   width: 80%;
-  margin: auto;
-  gap: 48px;
+  margin:   0 auto;
+  /* gap: 48px; */
   align-items: center;
+  justify-items: center;
 }
 .heroText {
   width: 65%;
   margin: 0 auto;
+  padding: 60px ;
 }
 .heroText h1 {
   font-family: Hanken Grotesk;
   font-size: 60px;
   font-weight: 700;
+  line-height: 67px;
   text-align: center;
+  color: white;
+  padding: 0 50px;
 }
 .main button {
   margin: 0 auto;
@@ -24,17 +35,14 @@
   background-color: #30baed;
 }
 .customer {
-  
-  margin: 60px auto;
-  display:flex;
+  margin: auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 90px 0 60px 0;
 }
-.customer p{
+.customer p {
   font-family: Hanken Grotesk;
-  /* color: white; */
-  
-
-
+  color: white;
 }

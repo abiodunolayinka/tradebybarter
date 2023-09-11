@@ -8,9 +8,10 @@ import Nintendo from "../../assets/nintendo.svg";
 import Jbl from "../../assets/jbl.svg";
 import Microsoft from "../../assets/microsoft.svg";
 import Hp from "../../assets/hp.svg";
-// import Apple  from '../../assets/apple.svg';
-import { FiArrowRight } from "react-icons/fi";
+import PS from "../../assets/PS.svg";
+import House from "../../assets/house.svg";
 
+import { FiArrowRight } from "react-icons/fi";
 
 const Product = () => {
   return (
@@ -18,38 +19,23 @@ const Product = () => {
       <h4>Product</h4>
       <div className={Classes.flexBox}>
         <div className={Classes.grid}>
-          <div className={Classes.cell}>
-            <img src={Apple} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Samsung} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Jbl} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Hp} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Nintendo} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Microsoft} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <img src={Oraimo} alt="img" />
-          </div>
-          <div className={Classes.cell}>
-            <button>
-              <Link to="./">
-                See all
-                <FiArrowRight />
-              </Link>
-            </button>
-          </div>
+          <img src={Apple} alt="img" />
+          <img src={Samsung} alt="img" />
+          <img src={Jbl} alt="img" />
+          <img src={Hp} alt="img" />
+          <img src={PS} alt="img" />
+          <img src={Nintendo} alt="img" />
+          <img src={Microsoft} alt="img" />
+          <img src={Oraimo} alt="img" />
+          <button>
+            <Link to="./">
+              See all
+              <FiArrowRight />
+            </Link>
+          </button>
         </div>
         <div className={Classes.places}>
-          <div>
+          <div className={Classes.placesinner}>
             <p>Discover a place you'll love to live</p>
             <button>
               <Link to="./">
@@ -57,10 +43,10 @@ const Product = () => {
                 <FiArrowRight />
               </Link>
             </button>
+            <div className={Classes.placesImg}>
+              <img src={House} alt="img" />
+            </div>
           </div>
-        </div>
-        <div>
-            <img src={Image} alt='img'/>
         </div>
       </div>
     </div>

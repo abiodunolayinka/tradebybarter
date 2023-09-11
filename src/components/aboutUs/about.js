@@ -48,7 +48,7 @@ const About = () => {
         </div>
         <div className={Classes.flex2}>
           <div className={Classes.aboutImg}>
-            <img src={AboutUs} alt="img" />`
+            <img src={AboutUs} alt="img" />
           </div>
           <div className={Classes.features}>
             <h4>01</h4>

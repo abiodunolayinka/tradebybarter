@@ -6,8 +6,9 @@ import classes from "./hero.module.css";
 
 const Hero = () => {
   return (
-    <>
+    
       <div className={classes.main}>
+        <div className={classes.mainContainer}></div>
         <div className={classes.heroText}>
           <h1>
             Giving our customers the best of gadgets over a long period of time.
@@ -20,11 +21,10 @@ const Hero = () => {
           </Link>
         </button>
         <div className={classes.customer}>
-          <img src={Customer} alt="img" />
-          <p>6000+ Satisfied Customer</p>
+          <img src={Customer} alt="img" />t55
+          <p>6000+ Satisfied customer</p>
         </div>
       </div>
-    </>
   );
 };
 

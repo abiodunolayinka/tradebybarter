@@ -1,0 +1,26 @@
+.main {
+  width: 80%;
+  /* padding: 32px 118px 32px 118px; */
+  border-radius: 32px;
+  background: #fcfcfc;
+  margin: 40px auto;
+}
+.mainContainer {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.mainContainer h4 {
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+}
+.main button {
+  padding: 13px 24px 13px 24px;
+  border-radius: 32px;
+  border: 1px solid #30baed;
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  text-align: center;
+  color: #30BAEB;
+  background: transparent;
+}

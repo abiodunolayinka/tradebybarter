@@ -1,0 +1,123 @@
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  width: 85%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.flex1 {
+  width: 70%;
+  height: fit-content;
+  padding: 20px 20px;
+  border-radius: 32px;
+  /* border: 1px; */
+  gap: 10px;
+  background-color: #30baeb;
+  align-items: center;
+  background: radial-gradient(circle at 0 200px, #30baeb, #ec3237, #0de7e6);
+}
+.flex1con {
+  margin: 40px 170px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1con h1 {
+  font-family: Hanken Grotesk;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.flex1con p {
+  font-family: Hanken Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #daedf3;
+  margin-bottom: 20px;
+}
+.flex1con button {
+  padding: 13px 24px 13px 24px;
+  border-radius: 32px;
+  border: 1px solid #cfd8db;
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+  text-align: center;
+  color: #30baeb;
+  background: transparent;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* display: flex; */
+  justify-items: center;
+  justify-content: space-between;
+}
+.flex1con button:hover {
+  transform: translate(-5px);
+  box-shadow: 0px 0px 0px #2980b9;
+}
+.flex2 {
+  width: 30%;
+  background: #14a0d1;
+  padding: 20px 10px;
+  border-radius: 32px;
+}
+.flex2Con {
+  width: 90%;
+  margin: auto;
+}
+.flexp {
+  /* padding: 0 0 40px; */
+  font-family: Hanken Grotesk;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+.flex2Con button {
+  width: 100%;
+  font-family: Hanken Grotesk;
+  padding: 2px 10px 2px 10px;
+  border-radius: 32px;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  justify-content: space-between;
+  background-color: #30baeb;
+  border: none;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.flex2Con button:hover {
+  transform: translate(5px);
+  box-shadow: 0px 0px 0px #2980b9;
+}
+.Link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.soc p {
+  font-family: Hanken Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.soc {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
