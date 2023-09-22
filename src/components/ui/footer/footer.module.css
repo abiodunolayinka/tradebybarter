@@ -7,9 +7,8 @@
   gap: 20px;
 }
 .flex1 {
-  width: 70%;
-  height: fit-content;
-  padding: 20px 20px;
+  width: 853px;
+  /* height: 449px; */
   border-radius: 32px;
   /* border: 1px; */
   gap: 10px;
@@ -18,52 +17,56 @@
   background: radial-gradient(circle at 0 200px, #30baeb, #ec3237, #0de7e6);
 }
 .flex1con {
-  margin: 40px 170px;
+  margin: 0 180px;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .flex1con h1 {
-  font-family: Hanken Grotesk;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0em;
+  color: #fff;
   text-align: center;
-  color: white;
+  font-family: Hanken Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 90% */
+  margin-top: 95px;
 }
 .flex1con p {
+  color: #daedf3;
+  text-align: center;
   font-family: Hanken Grotesk;
   font-size: 20px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #daedf3;
+  line-height: 27px; /* 135% */
   margin-bottom: 20px;
 }
 .flex1con button {
-  padding: 13px 24px 13px 24px;
-  border-radius: 32px;
-  border: 1px solid #cfd8db;
-  font-family: Hanken Grotesk;
-  font-size: 16px;
-  text-align: center;
   color: #30baeb;
-  background: transparent;
+  text-align: center;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+  border-radius: 32px;
+  border: 1px solid #30baeb;
+  display: flex;
+  padding: 13px 24px;
   align-items: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-  /* display: flex; */
-  justify-items: center;
-  justify-content: space-between;
+  gap: 8px;
+  background-color: transparent !important;
+  /* margin: 95px; */
 }
 .flex1con button:hover {
   transform: translate(-5px);
   box-shadow: 0px 0px 0px #2980b9;
 }
 .flex2 {
-  width: 30%;
+  width: 351px;
+  height: 455px;
   background: #14a0d1;
   padding: 20px 10px;
   border-radius: 32px;
@@ -74,24 +77,27 @@
 }
 .flexp {
   /* padding: 0 0 40px; */
+  color: #FFF;
   font-family: Hanken Grotesk;
-  font-size: 20px;
-  color: white;
-  margin-bottom: 30px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  margin-bottom: 65px ;
 }
 .flex2Con button {
   width: 100%;
   font-family: Hanken Grotesk;
-  padding: 2px 10px 2px 10px;
-  border-radius: 32px;
-  justify-content: space-between;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: flex;
-  justify-content: space-between;
-  background-color: #30baeb;
   border: none;
-  margin: 10px 0;
+  border-radius: 32px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #30baeb;
+  display: flex;
+  width: 302px;
+  padding: 13px 14px;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 12px;
 }
 
 .flex2Con button:hover {

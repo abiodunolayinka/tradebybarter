@@ -19,29 +19,41 @@ const Product = () => {
       <h4>Product</h4>
       <div className={Classes.flexBox}>
         <div className={Classes.grid}>
-          <img src={Apple} alt="img" />
-          <img src={Samsung} alt="img" />
-          <img src={Jbl} alt="img" />
-          <img src={Hp} alt="img" />
-          <img src={PS} alt="img" />
-          <img src={Nintendo} alt="img" />
-          <img src={Microsoft} alt="img" />
-          <img src={Oraimo} alt="img" />
+          <div className={Classes.gridContainer}>
+            <img src={Apple} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={Samsung} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={Jbl} alt="img" />
+          </div>
+
+          <div className={Classes.gridContainer}>
+            <img src={Hp} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={PS} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={Nintendo} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={Microsoft} alt="img" />
+          </div>
+          <div className={Classes.gridContainer}>
+            <img src={Oraimo} alt="img" />
+          </div>
+
           <button>
-            <Link to="./">
-              See all
-              <FiArrowRight />
-            </Link>
+            <Link to="./">See all &#129122;</Link>
           </button>
         </div>
         <div className={Classes.places}>
           <div className={Classes.placesinner}>
             <p>Discover a place you'll love to live</p>
             <button>
-              <Link to="./">
-                Learn more
-                <FiArrowRight />
-              </Link>
+              <Link to="./">Learn more &#129122;</Link>
             </button>
             <div className={Classes.placesImg}>
               <img src={House} alt="img" />

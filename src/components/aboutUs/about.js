@@ -24,9 +24,8 @@ const About = () => {
               Building Materials, Home appliances, Real estate etc.)
             </p>
             <button>
-              <Link to="./">
-                Learn More
-                <FiArrowRight />
+              <Link style={{ textDecoration: "none" }} to="./">
+                Learn More &#129122;
               </Link>
             </button>
           </div>
@@ -34,6 +33,8 @@ const About = () => {
             <img src={Logo} alt="img" />
           </div>
           <div className={Classes.social}>
+            <div className={Classes.socialContent}>
+
             <div className={Classes.lo}>
               <img src={Twittter} alt="img" />
               <img src={Instagram} alt="img" />
@@ -44,6 +45,7 @@ const About = () => {
               With us, you can buy your electronics, cars and other accessories.
               Shop now and get the best discount as possible
             </p>
+            </div>
           </div>
         </div>
         <div className={Classes.flex2}>

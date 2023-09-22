@@ -1,29 +1,28 @@
 .main {
   background-image: url("../../assets/bg.svg");
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
 }
 .mainContainer {
   width: 80%;
-  margin:   0 auto;
-  /* gap: 48px; */
+  margin: 0 auto;
   align-items: center;
   justify-items: center;
 }
 .heroText {
   width: 65%;
   margin: 0 auto;
-  padding: 60px ;
+  padding: 60px;
 }
 .heroText h1 {
-  font-family: Hanken Grotesk;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 67px;
+  color: #fff;
   text-align: center;
-  color: white;
-  padding: 0 50px;
+  font-family: Hanken Grotesk;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 67px; /* 95.714% */
+  padding: 0 28px;
 }
 .main button {
   margin: 0 auto;
@@ -33,6 +32,13 @@
   display: flex;
   border: none;
   background-color: #30baed;
+  color: #fff;
+  text-align: center;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
 }
 .customer {
   margin: auto;
@@ -40,9 +46,63 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 90px 0 60px 0;
+  padding: 121px 0;
 }
 .customer p {
+  color: #fff;
   font-family: Hanken Grotesk;
-  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .heroText {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .heroText {
+    width: 85%;
+  }
+  .heroText h1 {
+    font-size: 60px;
+
+  }
+}
+@media only screen and (max-width: 970px) {
+  .heroText {
+    width: 85%;
+    font-size: 40px;
+  }
+  .heroContainer {
+    width: 90%;
+  }
+  .customer{
+  padding: 55px 0;
+
+  }
+}
+@media only screen and (max-width: 768px) {
+  .heroText {
+    width: 100%;
+    margin:auto !important;
+    padding: 30px 0;
+    
+  }
+  .heroContainer {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .heroText h1{
+    font-size: 36px;
+    padding:  30px;
+    line-height: 40px;
+    
+  }
+  .heroContainer {
+    width: 80%;
+  }
 }

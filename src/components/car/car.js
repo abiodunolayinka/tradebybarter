@@ -12,7 +12,7 @@ const Car = () => {
         <img src={Cars} alt="img" />
         <h4>Buy and swap your cars with us today.</h4>
         <button>
-            <Link to= "./">
+            <Link style={{textDecoration: 'none'}} to= "./">
                 Learn more
                 <FiArrowRight />
             </Link>

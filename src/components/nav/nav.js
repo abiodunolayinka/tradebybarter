@@ -5,11 +5,11 @@ import  classes from "./nav.module.css"
 const Nav = () => {
   return (
     <nav    className={classes.main} >
-      <Link to="./">About us</Link>
+      <Link style={{textDecoration: 'none'}} to="./">About us</Link>
       <Link to="./">Our Product</Link>
       <Link to="./">Contact Us</Link>
       <button>
-        <Link to="./">
+        <Link style={{textDecoration: 'none'}}to="./">
           check our price list
           <FiArrowRight />
         </Link>

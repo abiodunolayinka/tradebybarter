@@ -22,53 +22,67 @@ const Footer = () => {
                 you through!
               </p>
               <button>
-                <Link to="./">
-                  Send a message
-                  <FiArrowRight />
+                <Link style={{ textDecoration: "none" }} to="./">
+                  Send a message &#129122;
+          
                 </Link>
               </button>
             </div>
           </div>
           <div className={Classes.flex2}>
             <div className={Classes.flex2Con}>
-              <p className={Classes.flexp}>Follow <br/>Tradebybarter <br/>on social media</p>
+              <p className={Classes.flexp}>
+                Follow <br />
+                Tradebybarter <br />
+                on social media
+              </p>
               <button>
-                <Link className={Classes.Link} to="./">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  className={Classes.Link}
+                  to="./"
+                >
                   <div className={Classes.soc}>
                     <div>
                       <img src={Inst} alt="img" />
                     </div>
                     <div>
-                      <p>Instagram</p>
+                      <p>Instagram &#129122;</p>
                     </div>
                   </div>
-                  <FiArrowRight />
                 </Link>
               </button>{" "}
               <button>
-                <Link className={Classes.Link} to="./">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  className={Classes.Link}
+                  to="./"
+                >
                   <div className={Classes.soc}>
                     <div>
                       <img src={Face} alt="img" />
                     </div>
                     <div>
-                      <p>Facebook</p>
+                      <p>Facebook &#129122;</p>
                     </div>
                   </div>
-                  <FiArrowRight />
                 </Link>
               </button>
               <button>
-                <Link className={Classes.Link} to="./">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  className={Classes.Link}
+                  to="./"
+                >
                   <div className={Classes.soc}>
                     <div>
                       <img src={Twi} alt="img" />
                     </div>
                     <div>
-                      <p>Twitter</p>
+                      <p>Twitter &#129122;</p>
                     </div>
                   </div>
-                  <FiArrowRight />
+                  
                 </Link>
               </button>
             </div>

@@ -10,6 +10,10 @@
   align-items: center;
   text-align: center;
 }
+.mainContainer > img{
+  width: 100%;
+}
+
 .mainContainer h4 {
   font-family: Hanken Grotesk;
   font-size: 24px;

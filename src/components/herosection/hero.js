@@ -15,13 +15,13 @@ const Hero = () => {
           </h1>
         </div>
         <button>
-          <Link to="./">
-            Learn More
-            <FiArrowRight />
+          <Link style={{textDecoration: 'none'}} to="./">
+            Learn More &#129122;
+            
           </Link>
         </button>
         <div className={classes.customer}>
-          <img src={Customer} alt="img" />t55
+          <img src={Customer} alt="img" />
           <p>6000+ Satisfied customer</p>
         </div>
       </div>
