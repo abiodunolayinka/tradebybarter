@@ -24,7 +24,6 @@ const Footer = () => {
               <button>
                 <Link style={{ textDecoration: "none" }} to="./">
                   Send a message &#129122;
-          
                 </Link>
               </button>
             </div>
@@ -82,7 +81,6 @@ const Footer = () => {
                       <p>Twitter &#129122;</p>
                     </div>
                   </div>
-                  
                 </Link>
               </button>
             </div>

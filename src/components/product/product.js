@@ -19,31 +19,21 @@ const Product = () => {
       <h4>Product</h4>
       <div className={Classes.flexBox}>
         <div className={Classes.grid}>
-          <div className={Classes.gridContainer}>
-            <img src={Apple} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={Samsung} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={Jbl} alt="img" />
-          </div>
+          <img src={Apple} alt="img" />
 
-          <div className={Classes.gridContainer}>
-            <img src={Hp} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={PS} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={Nintendo} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={Microsoft} alt="img" />
-          </div>
-          <div className={Classes.gridContainer}>
-            <img src={Oraimo} alt="img" />
-          </div>
+          <img src={Samsung} alt="img" />
+
+          <img src={Jbl} alt="img" />
+
+          <img src={Hp} alt="img" />
+
+          <img src={PS} alt="img" />
+
+          <img src={Nintendo} alt="img" />
+
+          <img src={Microsoft} alt="img" />
+
+          <img src={Oraimo} alt="img" />
 
           <button>
             <Link to="./">See all &#129122;</Link>
