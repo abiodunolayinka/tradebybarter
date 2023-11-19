@@ -10,30 +10,31 @@
 }
 .flexBox {
   display: flex;
-  width: 90%;
-  flex-wrap: wrap;
+  width: 95%;
+  gap: 30px;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
   margin: auto;
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 30px;
-  padding: 20px;
-  width: 600px;
-  margin: auto;
-  align-items: center;
+  /* padding: 20px; */
+  width: 60%;
+  /* margin: auto; */
+  /* align-items: center; */
 }
 .gridContainer {
-  display: block;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   /* flex-direction: column; */
   border-radius: 8px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .grid > img {
-  max-width: 110%;
+  width: 100%;
 }
 
 .grid button {
@@ -41,13 +42,13 @@
   min-width: none;
   margin: 30px;
   background: #30baeb;
-  padding: 13px 24px 13px 24px;
+  /* padding: 1px 24px ; */
   border-radius: 15px;
   border: none;
 }
 .places {
   max-width: 500px;
-  height: 527px;
+  height: 550px;
   background: #30baeb;
   /* position: relative; */
   border-radius: 20px 20px 0 0;
@@ -74,24 +75,22 @@
   /* margin-bottom: 24px; */
 }
 .placesinner button {
-  padding: 13px 24px 13px 24px;
+  padding: 13px 24px ;
   border-radius: 32px;
   border: none;
-  margin-bottom: 70px;
+  margin-bottom: 53px;
 }
 .placesImg {
   width: 100%;
-  /* padding-top: 90px; */
-  /* position: absolute;
-  bottom: 0; */
+  
 }
 .placesImg > img {
-  width: 80%;
+  width: 98%;
   /* height: 60%; */
 }
 @media only screen and (max-width: 768px) {
   .grid {
-    width: 80%;
+    width: 95%;
   }
   .grid > img{
     width: 100%;

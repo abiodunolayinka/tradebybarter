@@ -27,4 +27,14 @@
   text-align: center;
   color: #30BAEB;
   background: transparent;
+  margin-bottom: 40px;
+}
+.car{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.car > img{
+  width: 110%;
 }

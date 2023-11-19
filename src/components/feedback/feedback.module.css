@@ -29,3 +29,13 @@
 .flex > img{
     width: 55%;
 }
+
+@media screen and (max-width:768px) {
+  .main{
+    width: 95%;
+  }
+ 
+.flex > img{
+    width: 90%;
+}
+}

@@ -13,27 +13,25 @@ const Header = () => {
       <div className={classes.header}>
         <img src={Logo} alt="logo" />
 
-        <div
-          className={classes.dropDown}
-          onClick={() => setShowDropdown(!showDropdown)}
-        >
+        <div className={classes.dropDown}>
           {showDropdown ? (
             <FiAlignJustify
               size={30} // Set the size (width and height) using the size prop
               color="#30baed" // Set the color using the color prop
               className="icon"
+              onClick={() => setShowDropdown(false)}
             />
           ) : (
             <FiX
-              onClick={() => setShowDropdown(showDropdown)}
+              onClick={() => setShowDropdown(true)}
               size={30} // Set the size (width and height) using the size prop
               color="#30baed" // Set the color using the color prop
               className="icon"
             />
           )}
         </div>
-        {!showDropdown ? (
-          <nav>
+        <nav>
+          {showDropdown ? (
             <div className={classes.nav}>
               <Link
                 style={{ textDecoration: "none" }}
@@ -58,6 +56,8 @@ const Header = () => {
                 </Link>
               </button>
             </div>
+          ) : null}
+          {!showDropdown ? (
             <div className={classes.mobileDrop}>
               <Link
                 style={{ textDecoration: "none" }}
@@ -90,8 +90,8 @@ const Header = () => {
                 </Link>
               </button>
             </div>
-          </nav>
-        ) : null}
+          ) : null}
+        </nav>
       </div>
     </div>
   );
